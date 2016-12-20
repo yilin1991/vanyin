@@ -1,0 +1,56 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+li{list-style: none;-webkit-tap-highlight-color:transparent;}
+a{text-decoration: none;-webkit-tap-highlight-color:transparent;}
+div{-webkit-tap-highlight-color:transparent;}
+.header{width: 100%;height: 60px;text-align:center;position: relative; }
+.header img{display: inline-block;height: 40px; margin: 10px 0;}
+
+.header a.menu{display: block; width: 30px;height: 30px; position: absolute;right: 15px; top: 15px;}
+
+.header a.menu span{display: block;width: 100%; height: 4px;border-radius: 2px; background-color: #999999;}
+.header a.menu span:nth-child(1){margin-top: 3px;}
+.header a.menu span:nth-child(2){margin: 6px 0;}
+
+
+.caselist{width: 100%;display: block;}
+
+.caselist .caseul{width: 100%;display: table;margin-bottom: 45px;position: relative;border-bottom: solid 1px #d6d6d6;border-top: solid 1px #d6d6d6;clear: both;}
+.caselist .caseul ul.casetop{width: 100%; height: 60px;background-color: #fff;position: relative;z-index: 99999;}
+.caselist .caseul ul.casetop li{float: left;height: 100%;overflow: hidden;}
+.caselist .caseul ul.casetop li.caselogo{width: 60px;margin-left: -100%;}
+.caselist .caseul ul.casetop li.casename{width: 100%;padding: 0 60px 0 60px; }
+.caselist .caseul ul.casetop li.casemore{width: 50px;margin-left: -50px;text-align: center;line-height: 60px;}
+
+.caselist .caseul ul.casetop li.caselogo img{display: block;width: 100%;}
+
+.caselist .caseul ul.casetop li.casemore span{display: inline-block;width: 6px;height: 6px; border-radius: 50%; background-color: #666666;}
+
+.caselist .caseul ul.casetop li.casename p.nameinfo{font-size: 15px;line-height: 24px;color: #333333;padding:0 20px 0 10px;margin-top: 8px;font-weight: 600;}
+.caselist .caseul ul.casetop li.casename p.typeinfo{font-size: 13px;line-height: 20px;color: #999999;padding:0 20px 0 5px;} 
+
+.caselist .caseul ul.casetop li.casename p.typeinfo span{display: inline-block;}
+
+.caselist .caseul ul.casetop li.casename p.typeinfo span:nth-child(2n+1){width: 1px; background-color: #999999;height: 8px;margin-top: 3px;margin-left: 7px; margin-right: 7px;}
+.caselist .caseul ul.casetop li.casename p.typeinfo span:nth-child(1){margin-left: 0px;width: 0;}
+
+.caseimg{width: 100%;display: table;}
+.caseimg .caseimgtop{width: 100%;display: table;}
+.caseimg .caseimgtop img{display: block;width: 100%;}
+.caseimg .caseimgbottom{width: 100%;overflow: hidden;height: 0px;}
+.caseimg .caseimgbottom img{width: 100%;display: block;}
+
+
+
+
+
+.caselist .btndetail{width: 100%; height: 45px;text-align: center;position: absolute;left: 0;bottom: -23px;}
+
+.caselist .btndetail a{display: inline-block;height: 100%;}
+.caselist .btndetail a img{display: block;height: 100%;}
+
+
+
+
+
+
+
